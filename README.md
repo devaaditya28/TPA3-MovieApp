@@ -6,6 +6,6 @@ Saya membuat sebuah Aplikasi _**Movie App with TMDB API**_ untuk memenuhi salah 
 
 Berikut merupakan tampilan dari Aplikasi yang saya buat. Terima kasih.
 
-![HomePage](./img/home-page.png)
+![HomePage](img/home-page.png)
 
 Link Website :

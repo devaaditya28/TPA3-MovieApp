@@ -100,7 +100,7 @@ main {
 }
 
 .movie-info span.green {
-    color: green;
+    color: rgb(41, 240, 41);
 }
 
 .movie-info span.orange {
@@ -135,4 +135,44 @@ main {
 
 .movie:hover .overview{
     transform: translateY(0);
+}
+
+.no-results{
+    color:white;
+}
+
+.pagination{
+    display: flex;
+    margin: 75px 0px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.page{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.page.disabled{
+    cursor: not-allowed;
+    color:grey;
+}
+
+.current{
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid #9AD0EC;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+  
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
 }
